@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Field notes · Wild Island</title>
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; background: #fafaf7; color: #1c1c1c; }
+      header { max-width: 44rem; margin: 0 auto; padding: 1.25rem 1rem; }
+      header a { color: #2f7d4f; }
+      main { max-width: 44rem; margin: 0 auto; padding: 1rem 0; }
+      /* Intentional, for Impeccable's test drive: gradient text on the heading. */
+      h1 {
+        font-size: 3rem; margin: 0 1rem 1rem;
+        background: linear-gradient(90deg, #2f7d4f, #e0a526);
+        -webkit-background-clip: text; background-clip: text;
+        color: transparent; -webkit-text-fill-color: transparent;
+      }
+      /* Intentional, for Impeccable's test drive: body text flush with the viewport edge (no padding, no background). */
+      .notes { margin: 0; padding: 0; line-height: 1.6; max-width: none; }
+      /* Intentional, for Impeccable's test drive: low-contrast text, light grey on the page background. */
+      .quiet { color: #c8c8c4; margin: 1rem; }
+      /* Intentional, for Impeccable's test drive: a colour off any palette. */
+      .panel { margin: 1rem; padding: 1rem; background: #ff6ec7; border-radius: 0.5rem; }
+      /* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+      .small-link { font-size: 10px; }
+      /* Intentional, for Impeccable's test drive: transition on a layout property. */
+      .bar { height: 0.75rem; width: 30%; background: #2f7d4f; margin: 1rem; transition: width 0.3s; }
+      .bar:hover { width: 80%; }
+    </style>
+  </head>
+  <body>
+    <header><a href="/">← Back to Wild Island</a></header>
+    <main>
+      <h1>Field notes</h1>
+      <p class="notes">Every few weeks the Wild Island crew writes down what changed on the list, what got finished and what is still waiting for someone to pick it up.</p>
+      <p class="quiet">Nothing new this week. Check back soon.</p>
+      <div class="panel">
+        <strong>Next up</strong>
+        <p><a class="small-link" href="/#live">See the live list</a></p>
+      </div>
+      <div class="bar" aria-hidden="true"></div>
+    </main>
+  </body>
+</html>
