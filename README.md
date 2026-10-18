@@ -1,19 +1,14 @@
 # Wild Island: Landing page · Cloudflare (protected)
 
-> **This is a template, not a repository.** Copy it out and prepare it before an eval (steps below).
-> Nothing here is deployed.
-
 A one-page landing site on **Cloudflare**, with preview links **behind Cloudflare Access**. Static Vite +
 TypeScript, no framework. The page reads a live list from the shared Supabase test project.
 Row in the support matrix: impeccable-reviews#302.
 
 ## Deployment links
 
-Filled in at prep time.
-
 | Production | Preview gate |
 |---|---|
-| _not deployed_ | yes |
+| https://wild-island-4gze.pages.dev | yes: Cloudflare Access on `*.wild-island-4gze.pages.dev` |
 
 ## Names
 
